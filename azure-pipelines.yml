@@ -23,8 +23,7 @@ steps:
 
 # Publish Artifact
 - task: PublishBuildArtifacts@1
-  inputs:
-    PathtoPublish: '$(System.DefaultWorkingDirectory)/target'
-    ArtifactName: 'Artifact-java'
-    publishLocation: 'Container'
-
+  inputs:
+    PathtoPublish: '$(System.DefaultWorkingDirectory)/target'
+    ArtifactName: 'Artifact-java'
+    publishLocation: 'Container'
